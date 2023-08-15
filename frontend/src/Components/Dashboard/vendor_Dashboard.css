@@ -1,0 +1,25 @@
+.maincontainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+  }
+  
+  #aa {
+    float: left;
+  }
+  .pro {
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+  
+  #user-name {
+    font-weight: 600;
+    color: skyblue;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .detailscard{
+      margin-top: 5px;
+      border: 2px solid black;
+      padding: 10px;
+  }

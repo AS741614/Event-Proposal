@@ -1,0 +1,53 @@
+.card-container {
+  width: 80%;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  background-color: #cccccc;
+}
+
+#user-name {
+  font-weight: 600;
+  color: skyblue;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.card {
+  width: 12rem;
+}
+
+#proposals-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin-left: 170px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.card-body {
+  border: 1px solid #cccccc;
+  height: 125px;
+}
+
+.card-title {
+  margin-top: 0px;
+}
+
+@media (max-width: 1180px) {
+  .card-container {
+    margin-left: 100px;
+    grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+  }
+
+}
+
+.card-body {
+  font-weight: 700;
+  text-align: justify;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
