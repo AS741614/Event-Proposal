@@ -1,0 +1,80 @@
+.container2 {
+    width: 100%;
+    height: 544px;
+    border: 1px solid #cccccc;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card1 {
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    padding: 3px;
+    background-color: #cccccc;
+    font-weight: 600;
+    border: 1px solid #cccccc;
+  }
+  
+  #card1 {
+    width: 16rem;
+    height: 20rem;
+    line-height: 12px;
+    margin-top: 5px;
+  }
+  
+  #card2 {
+    width: 30rem;
+    height: 20rem;
+  }
+  
+  #card3 {
+    width: 30rem;
+    height: 20rem;
+  }
+  
+  #card4 {
+    width: 16rem;
+    height: 12rem;
+    padding: 10px;
+  }
+  
+  #card5 {
+    width: 30rem;
+    height: 12rem;
+    text-align: center;
+  }
+  
+  #card6 {
+    width: 30rem;
+    height: 12rem;
+  }
+  
+  h6 {
+    padding: 10px;
+    color: brown;
+  }
+  .para1 {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .album {
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  #id {
+    margin-top: 3px;
+  }
+  
+  span{
+      color:black;
+      font-weight: 700;
+  }
+  
+  .btn{
+      margin-top: 9px;
+      height:40px;
+      background-color: skyblue;
+  }
