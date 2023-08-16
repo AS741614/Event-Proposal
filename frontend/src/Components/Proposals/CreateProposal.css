@@ -1,0 +1,107 @@
+body {
+
+    color: black;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /*   
+    input[type="file"] {
+      margin-bottom: 1rem;
+    } */
+  
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .C-proposal_container {
+    width: 70%;
+    margin-left: 15%;
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color:white;
+  }
+  
+  .imgcontainer {
+    padding: 10px;
+    border: 1px solid black;
+    height: 120px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:darkgreen;
+    padding: 10px;
+  }
+  
+  #galeria{
+    display: grid;
+    grid-template-columns:repeat(5,minmax(70px,50px));
+    grid-template-rows:repeat(auto-fit,minmax(55px,50px));
+  }
+  
+  
+  #galeria img{
+    width: 50px;
+    margin-left: 10px;
+    height: 50px;
+  }
+  .row{
+  margin: 5px;
+  }
+  
+  .textares{
+    height: 100px;
+  }
+  .cancelBtn{
+    margin-top: 5px;
+    width: 50px;
+    height: 40px;
+    float: right;
+    margin-right: 10px;
+  }
