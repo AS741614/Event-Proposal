@@ -84,8 +84,8 @@ const ProposalsDetails = () => {
 
         <div className="card1" id="card5">
             <h6 id="h6">Contacts | 12</h6>
-            <p>Contact1<br/>+918826834326</p>
-            <p>Contact1<br/>+918826834326</p>
+            <p>Contact1<br/>+917865487654</p>
+            <p>Contact1<br/>+917865487654</p>
             </div>
 
         <div className="card1" id="card6">

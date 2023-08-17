@@ -145,9 +145,9 @@ const CreateProposal = () => {
                   value={place}
                 >
                   <option value="Select">Select</option>
-                  <option value="Telangana">Hyderabad</option>
-                  <option value="Uttrakhand">Dehradhun</option>
-                  <option value="Uttar Pradesh">Aligarh</option>
+                  <option value="Patna">Kanpur</option>
+                  <option value="Ranchi">Lucknow</option>
+                  <option value="Banglore">Agra</option>
                 </select>
               </div>
               <div className="col-1"></div>
